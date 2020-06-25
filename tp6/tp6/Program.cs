@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; // libreria 
 
 namespace tp6
 {
@@ -165,8 +165,8 @@ namespace tp6
 
             Console.WriteLine("\n_el cuadrado es : " + (Math.Pow(numero, 2)));
             Console.WriteLine("\n_la raiz es : " + Math.Sqrt(numero));
-            Console.WriteLine("\n_el seno es : " + (Math.Sin(numero * Math.PI/180))); //  Math.PI/180 para convertir a radianes
-            Console.WriteLine("\n_el coseno es: " + (Math.Cos(numero * Math.PI / 180)));
+            Console.WriteLine("\n_el seno es : " + (Math.Sin(numero * Math.PI/180)));
+            Console.WriteLine("\n_el coseno es: " + (Math.Cos(numero * Math.PI/180)));
             partInt = Convert.ToInt32(numero); // casteo a entero
             Console.WriteLine("\n la parte entera es\n" + partInt); // muestro solo la parte entera
         }
@@ -183,6 +183,11 @@ namespace tp6
 
             Console.WriteLine("el mayor de los numeros ingresados es :" + (Math.Max(numero2, numero3)));
             Console.WriteLine("el menor de los numeros ingresados es :" + (Math.Min(numero2, numero3)));
+
+            string nombre = "gabriel";
+            @nombre = "hola ";
+
+
         }
 
     }
