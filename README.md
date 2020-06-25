@@ -1,5 +1,4 @@
 # TP N° 6 
----
 
 ## Ejercicio 4
 
