@@ -183,11 +183,6 @@ namespace tp6
 
             Console.WriteLine("el mayor de los numeros ingresados es :" + (Math.Max(numero2, numero3)));
             Console.WriteLine("el menor de los numeros ingresados es :" + (Math.Min(numero2, numero3)));
-
-            string nombre = "gabriel";
-            @nombre = "hola ";
-
-
         }
 
     }
